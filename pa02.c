@@ -1,35 +1,3 @@
-/*=============================================================================
-| Assignment: pa02 - Calculating an 8, 16, or 32 bit
-| checksum on an ASCII input file
-|
-| Author: Jilben Brito
-| Language: c
-|
-| To Compile: javac pa02.java
-| gcc -o pa02 pa02.c
-| g++ -o pa02 pa02.cpp
-| go build pa02.go
-| python pa02.py //Caution - expecting input parameters
-|
-| To Execute: java -> java pa02 inputFile.txt 8
-| or c++ -> ./pa02 inputFile.txt 8
-| or c -> ./pa02 inputFile.txt 8
-| or go -> ./pa02 inputFile.txt 8
-| or python-> python3 pa02.py inputFile.txt 8
-| where inputFile.txt is an ASCII input file
-| and the number 8 could also be 16 or 32
-| which are the valid checksum sizes, all
-| other values are rejected with an error message
-| and program termination
-|
-| Note: All input files are simple 8 bit ASCII input
-|
-| Class: CIS3360 - Security in Computing - Spring 2024
-| Instructor: McAlpin
-| Due Date: per assignment
-|
-+=============================================================================*/
-
 //Libraries
 #include <stdio.h>
 #include <stdlib.h>
@@ -203,12 +171,3 @@ double power(int x, int y){
     }
     return res;
 }
-
-/*=============================================================================
-| I Jilben Brito (5512370) affirm that this program is
-| entirely my own work and that I have neither developed my code together with
-| any another person, nor copied any code from any other person, nor permitted
-| my code to be copied or otherwise used by any other person, nor have I
-| copied, modified, or otherwise used programs created by others. I acknowledge
-| that any violation of the above terms will be treated as academic dishonesty.
-+============================================================================*/
